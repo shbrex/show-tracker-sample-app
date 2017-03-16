@@ -6,23 +6,23 @@ angular.module('MyApp', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mg
     //routes
     $routeProvider
 	  .when('/', {
-	    templateUrl: 'home.html',
+	    templateUrl: 'views/home.html',
 	    controller: 'MainCtrl'
 	  })
 	  .when('/shows/:id', {
-	    templateUrl: 'detail.html',
+	    templateUrl: 'views/detail.html',
 	    controller: 'DetailCtrl'
 	  })
 	  .when('/login', {
-	    templateUrl: 'login.html',
+	    templateUrl: 'views/login.html',
 	    controller: 'LoginCtrl'
 	  })
 	  .when('/signup', {
-	    templateUrl: 'signup.html',
+	    templateUrl: 'views/signup.html',
 	    controller: 'SignupCtrl'
 	  })
 	  .when('/add', {
-	    templateUrl: 'add.html',
+	    templateUrl: 'views/add.html',
 	    controller: 'AddCtrl'
 	  })
 	  .otherwise({
